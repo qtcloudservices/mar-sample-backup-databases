@@ -1,7 +1,7 @@
 # Managed Application Runtime - Database Backup Example Service
 
 This is an example Backup service for Qt Cloud Service - Managed Application Runtime.
-More information about [Backup gem](meskyanichi.github.io/backup/v4/).
+More information about [Backup gem](http://meskyanichi.github.io/backup/v4/).
 
 ## Getting Started
 
