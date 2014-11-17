@@ -1,10 +1,14 @@
 require 'rufus-scheduler'
 $stdout.sync = true
 
-scheduler = Rufus::Scheduler.new
+puts '=== BACKUP WORKER ==='
 
-scheduler.every '10s' do
-  puts `bundle exec backup perform -t mdb`
+backup_cmd = 'bundle exec backup perform -t mdb'
+puts `#{backup_cmd}`
+
+scheduler = Rufus::Scheduler.new
+scheduler.every '1h' do
+  puts `#{backup_cmd}`
 end
 
 scheduler.join
