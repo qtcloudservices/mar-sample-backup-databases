@@ -1,0 +1,5 @@
+https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server/+files/libjemalloc1_3.6.0-1chl1~lucid1_amd64.deb
+https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server/+files/redis-tools_2.8.14-1chl1~lucid1_amd64.deb
+http://se.archive.ubuntu.com/ubuntu/pool/main/m/mysql-dfsg-5.1/mysql-client-5.1_5.1.73-0ubuntu0.10.04.1_amd64.deb
+http://downloads-distro.mongodb.org/repo/ubuntu-upstart/dists/dist/10gen/binary-amd64/mongodb-org-tools_2.6.5_amd64.deb
+http://downloads-distro.mongodb.org/repo/ubuntu-upstart/dists/dist/10gen/binary-amd64/mongodb-org-shell_2.6.5_amd64.deb
